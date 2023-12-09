@@ -1,0 +1,92 @@
+
+.sector{
+    background-color: aqua;
+    height: 57vh;
+    padding: 5% 0% 15.2% 0% ;
+}
+.sector-form{
+    background-color: white;
+    width: 75%;
+    padding: 20px 60px;
+    margin: 30px auto 0px auto;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h2{
+    margin-right: 100px;
+}
+ form {
+     margin:0 auto;
+     padding: 20px;
+     border-radius: 8px;
+ }
+ label {
+     display: flex;
+     margin-bottom: 10px;
+     margin-left: 35%;
+ }
+ input[type="checkbox"] {
+     margin-right: 5px;
+ }
+ button {
+     background-color: aqua;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     width: 42%;
+     border-radius: 4px;
+     margin-bottom: 20px;
+     margin-left: 180px;
+     cursor: pointer;
+     font-size: 15PX;
+     font-weight: bold;
+ }
+ button:hover {
+     background-color: a ;
+ }
+.container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .title {
+      margin-right: 10px;
+  }
+.text-field {
+      padding: 5px 0px 5px 10px;
+      width: 400px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      height: 40px;
+      border:none;
+      box-shadow: 0px 0px 5px rgba(179, 179, 179, 0.593);
+}
+.sector-num{
+    background-color: white;
+    width:38%;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+    box-shadow: 0px 0px 5px rgba(179, 179, 179, 0.593);
+}
+.sectorWrap{
+    background-color: white;
+    position:absolute;
+    width:30%;
+    margin:0 auto;
+    right:28%;
+    padding:1%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(45, 45, 45, 0.327);
+}
+.sectorItem{
+    margin-top: 3px;
+    display:flex;
+    align-items:center;
+}
